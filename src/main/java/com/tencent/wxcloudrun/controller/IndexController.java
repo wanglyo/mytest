@@ -19,4 +19,11 @@ public class IndexController {
     return "index";
   }
 
+
+  @GetMapping("hello")
+  public String hello() {
+    return "helloworld 月少";
+  }
+
+
 }
