@@ -32,8 +32,9 @@ public class CounterController {
   }
 
 
-  @GetMapping("hello")
+  @GetMapping("/api/hello")
   public String hello() {
+    logger.info("/api/hello get request");
     return "helloworld 月少";
   }
   /**
