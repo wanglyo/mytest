@@ -20,10 +20,6 @@ public class IndexController {
   }
 
 
-  @GetMapping("hello")
-  public String hello() {
-    return "helloworld 月少";
-  }
 
 
 }

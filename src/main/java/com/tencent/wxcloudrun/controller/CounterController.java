@@ -32,6 +32,10 @@ public class CounterController {
   }
 
 
+  @GetMapping("hello")
+  public String hello() {
+    return "helloworld 月少";
+  }
   /**
    * 获取当前计数
    * @return API response json
