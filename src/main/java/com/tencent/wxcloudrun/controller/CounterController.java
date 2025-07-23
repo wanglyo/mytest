@@ -33,9 +33,9 @@ public class CounterController {
 
 
   @GetMapping("/api/hello")
-  public String hello() {
+  public ApiResponse hello() {
     logger.info("/api/hello get request");
-    return "helloworld 月少";
+    return ApiResponse.ok("月少18CM");
   }
   /**
    * 获取当前计数
